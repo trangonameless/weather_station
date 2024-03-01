@@ -40,7 +40,7 @@ def average_of_chunks(data):
 
 
 def db_collecting():
-    conn = sqlite3.connect("sht30_data.db")  # Corrected database name
+    conn = sqlite3.connect("sht30_data.db")  
     cursor = conn.cursor()
 
     cursor.execute('''
